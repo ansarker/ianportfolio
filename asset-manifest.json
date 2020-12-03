@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/ianportfolio/static/css/main.6cd43204.chunk.css",
-    "main.js": "/ianportfolio/static/js/main.fd2cd15b.chunk.js",
-    "main.js.map": "/ianportfolio/static/js/main.fd2cd15b.chunk.js.map",
+    "main.css": "/ianportfolio/static/css/main.e446ad56.chunk.css",
+    "main.js": "/ianportfolio/static/js/main.1bbf7337.chunk.js",
+    "main.js.map": "/ianportfolio/static/js/main.1bbf7337.chunk.js.map",
     "runtime-main.js": "/ianportfolio/static/js/runtime-main.28d2efe5.js",
     "runtime-main.js.map": "/ianportfolio/static/js/runtime-main.28d2efe5.js.map",
-    "static/js/2.fcb93a28.chunk.js": "/ianportfolio/static/js/2.fcb93a28.chunk.js",
-    "static/js/2.fcb93a28.chunk.js.map": "/ianportfolio/static/js/2.fcb93a28.chunk.js.map",
+    "static/js/2.10af0c25.chunk.js": "/ianportfolio/static/js/2.10af0c25.chunk.js",
+    "static/js/2.10af0c25.chunk.js.map": "/ianportfolio/static/js/2.10af0c25.chunk.js.map",
     "index.html": "/ianportfolio/index.html",
-    "precache-manifest.fd1dc5e31a761bade82800ad5dbd015e.js": "/ianportfolio/precache-manifest.fd1dc5e31a761bade82800ad5dbd015e.js",
+    "precache-manifest.3b1a3b60afb807cd03f1a7bb8376b679.js": "/ianportfolio/precache-manifest.3b1a3b60afb807cd03f1a7bb8376b679.js",
     "service-worker.js": "/ianportfolio/service-worker.js",
-    "static/css/main.6cd43204.chunk.css.map": "/ianportfolio/static/css/main.6cd43204.chunk.css.map",
-    "static/js/2.fcb93a28.chunk.js.LICENSE": "/ianportfolio/static/js/2.fcb93a28.chunk.js.LICENSE",
-    "static/media/iansarker.jpg": "/ianportfolio/static/media/iansarker.0fe4e017.jpg"
+    "static/css/main.e446ad56.chunk.css.map": "/ianportfolio/static/css/main.e446ad56.chunk.css.map",
+    "static/js/2.10af0c25.chunk.js.LICENSE": "/ianportfolio/static/js/2.10af0c25.chunk.js.LICENSE",
+    "static/media/houserent_1.png": "/ianportfolio/static/media/houserent_1.256dc452.png",
+    "static/media/houserent_2.png": "/ianportfolio/static/media/houserent_2.27fb69e4.png",
+    "static/media/houserent_3.png": "/ianportfolio/static/media/houserent_3.b3d86855.png",
+    "static/media/iansarker.jpg": "/ianportfolio/static/media/iansarker.0fe4e017.jpg",
+    "static/media/luvmusic_1.png": "/ianportfolio/static/media/luvmusic_1.1d5dae22.png",
+    "static/media/luvmusic_2.png": "/ianportfolio/static/media/luvmusic_2.7aaf9cf5.png",
+    "static/media/nodejs_file_upload_2.png": "/ianportfolio/static/media/nodejs_file_upload_2.9746faa7.png"
   },
   "entrypoints": [
     "static/js/runtime-main.28d2efe5.js",
-    "static/js/2.fcb93a28.chunk.js",
-    "static/css/main.6cd43204.chunk.css",
-    "static/js/main.fd2cd15b.chunk.js"
+    "static/js/2.10af0c25.chunk.js",
+    "static/css/main.e446ad56.chunk.css",
+    "static/js/main.1bbf7337.chunk.js"
   ]
 }
