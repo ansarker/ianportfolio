@@ -42,6 +42,9 @@ export default function Skills() {
   const ListItems = (props) => {
     return props.item.map((it, key) => {
       return (
+        // <li className="spacing_ sml_" key={key}>
+        //   {it}
+        // </li>
         <li className="mc-1 ml-0 btn btn-info spacing_ sml_" key={key}>
           {it}
         </li>
