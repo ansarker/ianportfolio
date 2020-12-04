@@ -31,7 +31,7 @@ const ModalCodeView = (props) => {
         </Button>
       </Modal.Header>
 
-      <Modal.Body>
+      <Modal.Body className="m-4">
         <div className="blog-content">
           <Markdown source={props.data.content} />
         </div>

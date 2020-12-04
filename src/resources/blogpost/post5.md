@@ -8,7 +8,7 @@ author: Anis Sarker
 ### Some quote that I cherish...
 ___
 
-> People seldom do what they believe in. They do what is convenient, then repent.
+> 'People seldom do what they believe in. They do what is convenient, then repent.' - Bob Dylan
 
 > There will be a time would come when you can't share your moments with everyone equally. For that, chaos within loved one is must avoidable.
 
