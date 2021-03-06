@@ -71,7 +71,9 @@ const ModalCodeView = (props) => {
           ) : (
             ""
           )}
-          <p><strong>Category:</strong>{" "}<i>{props.data.category}</i></p> 
+          <p>
+            <strong>Category:</strong> <i>{props.data.category}</i>
+          </p>
         </div>
       </Modal.Body>
     </Modal>
@@ -99,7 +101,7 @@ export default class Codes extends Component {
   render() {
     const codeList = this.state.codes.map((item, id) => {
       return (
-        <li className="list-group-item" key={id}>
+        <li className="list_group_item_" key={id}>
           <a
             className=""
             role="button"
@@ -115,16 +117,16 @@ export default class Codes extends Component {
 
     return (
       <div className="section_">
-        <h2 className="header_">Codes</h2>
-        <div className="row">
-          <div className="col-sm-12 col-md-12 col-xs-12">
-            <ul className="list-group">{codeList}</ul>
-            <ModalCodeView
-              show={this.state.showModal}
-              handleModal_={this.openModalCodeView}
-              data={this.state.currProject}
-            />
-          </div>
+        <header className="post-header_">
+          <h2 className="post-title">Posts</h2>
+        </header>
+        <div className="post-body">
+          <ul className="list_group_">{codeList}</ul>
+          <ModalCodeView
+            show={this.state.showModal}
+            handleModal_={this.openModalCodeView}
+            data={this.state.currProject}
+          />
         </div>
       </div>
     );

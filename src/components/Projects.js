@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import projects from "../resources/projects";
 import Modal_ from "./Modal";
 
-
 export default class Projects extends Component {
   constructor() {
     super();
@@ -16,7 +15,7 @@ export default class Projects extends Component {
   }
 
   handleModal() {
-    this.setState({ show: !this.state.show })
+    this.setState({ show: !this.state.show });
   }
 
   render() {
@@ -35,7 +34,9 @@ export default class Projects extends Component {
         <div className="col-sm-4 col-md-4 col-xs-4 text-center" key={id}>
           <div
             // onClick={this.handleModal}
-            onClick={() => this.handleModal(this.setState({currProject: project}))}
+            onClick={() =>
+              this.handleModal(this.setState({ currProject: project }))
+            }
             className="card"
             data-toggle="modal"
             data-target={"#exampleModal_" + id}
@@ -63,12 +64,14 @@ export default class Projects extends Component {
               </a> */}
             </div>
           </div>
-          
         </div>
       );
     });
     return (
       <div>
+        <header className="post-header">
+          <h1 className="post-title">Portfolio</h1>
+        </header>
         {/* <div className="pl-4 pr-4">
           <div className="navbar-expand-lg card-body text-center">
           <ul className="navbar-nav disp-blck">
@@ -76,9 +79,13 @@ export default class Projects extends Component {
           </ul>
           </div>
         </div> */}
-        <div className="pl-4 pr-4">
+        <div className="post-body">
           <div className="row">{porjects_}</div>
-          <Modal_ show={this.state.show} handleModal_={this.handleModal} data={this.state.currProject}/>
+          <Modal_
+            show={this.state.show}
+            handleModal_={this.handleModal}
+            data={this.state.currProject}
+          />
         </div>
       </div>
     );
